@@ -1,0 +1,147 @@
+body{
+    background-image: url(./background/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .pergunta{
+    color: #fff;
+    width: 300px;
+    height: 111px;
+    top: 308px;
+    left: -361px;
+}
+
+.pergunta .titulo{
+    width: 287.25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.pergunta .paragrafo{
+    width: 300px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+.informacoes{
+    background-color: #fff;
+    margin-left: 60px;
+    width: 340px;
+    height: 378px;
+    top: 20px;
+}
+
+.informacoes .info.nome{
+    margin-top: 20px;
+}
+
+.informacoes .info{
+    margin-top: 6px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+    width: 298.01px;
+    height: 35.11px;
+    padding: 10px;
+}
+
+.informacoes .info.mensagem {
+    height: 100px;
+    padding: 10px; /* Mantém o padding existente */
+    resize: none; /* Impede o redimensionamento */
+    vertical-align: top; /* Alinha o texto ao topo */
+    box-sizing: border-box; /* Garante que o padding não afete a altura total */
+}
+
+.informacoes .camposObrigatorios{
+    margin-left: 14px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+
+}
+
+.botao{
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    top: 489px;
+    margin-top: 11px;
+    margin-left: 19px;
+    width: 298.01px;
+    height: 41.13px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.campo_obgt{
+    font-weight: 400;
+    color: #F52E2E;
+    font-size: 8px;
+    line-height: 9.38px
+}
+
+.posicao1{
+    width: 66px;
+    height: 9px;
+    top: 229px;
+    margin-left: 21px;
+}
+
+.posicao2{
+    width: 66px;
+    height: 9px;
+    top: 279px;
+    margin-left: 21px;
+}
+
+.posicao3{
+    width: 66px;
+    height: 9px;
+    top: 329px;
+    margin-left: 21px;
+}
+
+.posicao4{
+    width: 66px;
+    height: 9px;
+    top: 444px;
+    margin-left: 21px;
+}
+
+.bordaPreta{
+    border: 1px solid;
+}
+
+.bordaVerde{
+    border: 1px solid green;
+}
+
+.bordaVermelha{
+    border: 1px solid #F52E2E;
+}
+
+
+@media (max-width: 425px) {
+    .container {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+    }
+    .informacoes{
+        margin-top: 20px;
+        margin-left: 0px;
+        right: auto;
+    }
+    
+}
